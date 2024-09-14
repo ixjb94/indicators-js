@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "description": "Fastest Technical Indicators written in javascript. More than +100 indicators(SMA, EMA, RSI, MACD, ...)",
   "main": "index.js",
-  "types": "index.d.ts",
+  "types": "types/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "rollup -c --bundleConfigAsCjs",
