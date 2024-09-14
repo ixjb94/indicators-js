@@ -2,3 +2,4 @@ node_modules
 dist
 core - Copy
 rollup.config_old.js
+rollup.config_new.js
