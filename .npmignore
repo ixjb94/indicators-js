@@ -1,5 +1,5 @@
 .vscode
-generate.js
+./generate.js
 todo.md
 core - promised
 rollup.config_old.js
