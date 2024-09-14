@@ -1,6 +1,6 @@
 {
   "name": "@ixjb94/indicators-js",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Fastest Technical Indicators written in javascript. More than +100 indicators(SMA, EMA, RSI, MACD, ...)",
   "main": "index.js",
   "types": "types/index.d.ts",
