@@ -1,5 +1,6 @@
 node_modules
 dist
+generate.js
 core - promised
 rollup.config_old.js
 rollup.config_new.js
