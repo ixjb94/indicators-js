@@ -1,0 +1,29 @@
+{
+  "name": "@ixjb94/indicators-js",
+  "version": "1.0.0",
+  "description": "Fastest Technical Indicators written in typescript. More than +100 indicators(SMA, EMA, RSI, MACD, ...)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "publish": "npm publish --access=public"
+
+  },
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/ixjb94/indicators-js.git"
+	},
+	"keywords": [
+		"indicators",
+		"ema",
+		"sma",
+		"rsi",
+		"cci",
+		"technical indicators",
+		"chart",
+		"trade"
+	],
+  "author": "IX JB",
+	"license": "MIT"
+}
