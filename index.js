@@ -81,7 +81,6 @@ const stoch = require("./core/stoch");
 const stochrsi = require("./core/stochrsi");
 const sum = require("./core/sum");
 const tema = require("./core/tema");
-const ti_buffer = require("./core/ti_buffer");
 const tr = require("./core/tr");
 const trima = require("./core/trima");
 const trix = require("./core/trix");
@@ -187,7 +186,6 @@ module.exports = {
     stochrsi,
     sum,
     tema,
-    ti_buffer,
     tr,
     trima,
     trix,
