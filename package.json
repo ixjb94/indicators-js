@@ -8,6 +8,7 @@
     "test": "jest",
     "build": "rollup -c --bundleConfigAsCjs",
     "public": "npm publish --access=public",
+    "tsc": "npx tsc",
     "publish": "npm publish"
   },
   "repository": {
@@ -29,6 +30,7 @@
   "devDependencies": {
     "rollup": "^4.21.3",
     "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "typescript": "^5.6.2"
   }
 }

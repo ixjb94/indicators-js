@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "outDir": "types",
+        "allowJs": true,
+        "checkJs": true
+    },
+    "include": [
+        "core/**/*.js",
+        "index.js"
+    ]
+}
