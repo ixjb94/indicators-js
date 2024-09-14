@@ -8,4 +8,4 @@ export = pbands;
  * @param {number} [size]
  * @returns [pbands_lower, pbands_upper]
  */
-declare function pbands(high: number[], low: number[], close: number[], period: number, size?: number): Promise<number[][]>;
+declare function pbands(high: number[], low: number[], close: number[], period: number, size?: number): number[][];

@@ -7,4 +7,4 @@ export = tsi;
  * @param {number} [size]
  * @returns
  */
-declare function tsi(source: number[], y_period: number, z_period: number, size?: number): Promise<number[]>;
+declare function tsi(source: number[], y_period: number, z_period: number, size?: number): number[];

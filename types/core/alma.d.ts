@@ -8,4 +8,4 @@ export = alma;
  * @param {number} [size]
  * @returns
  */
-declare function alma(source: number[], period: number, offset: number, sigma: number, size?: number): Promise<number[]>;
+declare function alma(source: number[], period: number, offset: number, sigma: number, size?: number): number[];

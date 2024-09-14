@@ -8,4 +8,4 @@ export = cci;
  * @param {number} [size]
  * @returns
  */
-declare function cci(high: number[], low: number[], close: number[], period: number, size?: number): Promise<number[]>;
+declare function cci(high: number[], low: number[], close: number[], period: number, size?: number): number[];

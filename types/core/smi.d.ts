@@ -10,4 +10,4 @@ export = smi;
  * @param {number} [size]
  * @returns
  */
-declare function smi(high: number[], low: number[], close: number[], q_period: number, r_period: number, s_period: number, size?: number): Promise<number[]>;
+declare function smi(high: number[], low: number[], close: number[], q_period: number, r_period: number, s_period: number, size?: number): number[];

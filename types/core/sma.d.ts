@@ -6,4 +6,4 @@ export = sma;
  * @param {number} [size]
  * @returns
  */
-declare function sma(source: number[], period: number, size?: number): Promise<number[]>;
+declare function sma(source: number[], period: number, size?: number): number[];

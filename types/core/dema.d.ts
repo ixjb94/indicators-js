@@ -5,4 +5,4 @@ export = dema;
  * @param {number} [size]
  * @returns
  */
-declare function dema(source: number[], period: number, size?: number): Promise<number[]>;
+declare function dema(source: number[], period: number, size?: number): number[];

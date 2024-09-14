@@ -6,4 +6,4 @@ export = trix;
  * @param {number} [size]
  * @returns
  */
-declare function trix(source: number[], period: number, size?: number): Promise<number[]>;
+declare function trix(source: number[], period: number, size?: number): number[];

@@ -6,4 +6,4 @@ export = rsi;
  * @param {number} [size]
  * @returns
  */
-declare function rsi(source: number[], period: number, size?: number): Promise<number[]>;
+declare function rsi(source: number[], period: number, size?: number): number[];

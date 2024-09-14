@@ -6,4 +6,4 @@ export = wilders;
  * @param {number} [size]
  * @returns
  */
-declare function wilders(source: number[], period: number, size?: number): Promise<number[]>;
+declare function wilders(source: number[], period: number, size?: number): number[];

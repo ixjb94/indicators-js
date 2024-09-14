@@ -10,4 +10,4 @@ export = stoch;
  * @param {number} [size]
  * @returns [stoch, stoch_ma]
  */
-declare function stoch(high: number[], low: number[], close: number[], kperiod: number, kslow: number, dperiod: number, size?: number): Promise<number[][]>;
+declare function stoch(high: number[], low: number[], close: number[], kperiod: number, kslow: number, dperiod: number, size?: number): number[][];

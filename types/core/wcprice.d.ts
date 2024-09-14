@@ -7,4 +7,4 @@ export = wcprice;
  * @param {number} [size]
  * @returns
  */
-declare function wcprice(high: number[], low: number[], close: number[], size?: number): Promise<number[]>;
+declare function wcprice(high: number[], low: number[], close: number[], size?: number): number[];

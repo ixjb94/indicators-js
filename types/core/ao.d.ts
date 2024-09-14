@@ -6,4 +6,4 @@ export = ao;
  * @param {number} [size]
  * @returns
  */
-declare function ao(high: number[], low: number[], size?: number): Promise<number[]>;
+declare function ao(high: number[], low: number[], size?: number): number[];

@@ -6,4 +6,4 @@ export = trima;
  * @param {number} [size]
  * @returns
  */
-declare function trima(source: number[], period: number, size?: number): Promise<number[]>;
+declare function trima(source: number[], period: number, size?: number): number[];

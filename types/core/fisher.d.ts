@@ -7,4 +7,4 @@ export = fisher;
  * @param {number} [size]
  * @returns [fisher, signal]
  */
-declare function fisher(high: number[], low: number[], period: number, size?: number): Promise<number[][]>;
+declare function fisher(high: number[], low: number[], period: number, size?: number): number[][];

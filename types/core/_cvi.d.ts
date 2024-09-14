@@ -7,4 +7,4 @@ export = _cvi;
  * @param {number} [size]
  * @returns
  */
-declare function _cvi(high: number[], low: number[], period: number, size?: number): Promise<number[]>;
+declare function _cvi(high: number[], low: number[], period: number, size?: number): number[];

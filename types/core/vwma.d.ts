@@ -7,4 +7,4 @@ export = vwma;
  * @param {number} [size]
  * @returns
  */
-declare function vwma(source: number[], volume: number[], period: number, size?: number): Promise<number[]>;
+declare function vwma(source: number[], volume: number[], period: number, size?: number): number[];

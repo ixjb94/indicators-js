@@ -7,4 +7,4 @@ export = fi;
  * @param {number} [size]
  * @returns
  */
-declare function fi(close: number[], volume: number[], period: number, size?: number): Promise<number[]>;
+declare function fi(close: number[], volume: number[], period: number, size?: number): number[];

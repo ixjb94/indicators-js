@@ -7,4 +7,4 @@ export = dm;
  * @param {number} [size]
  * @returns [Plus DM, Minus DM]
  */
-declare function dm(high: number[], low: number[], period: number, size?: number): Promise<number[][]>;
+declare function dm(high: number[], low: number[], period: number, size?: number): number[][];

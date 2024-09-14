@@ -7,4 +7,4 @@ export = typprice;
  * @param {number} [size]
  * @returns
  */
-declare function typprice(high: number[], low: number[], close: number[], size?: number): Promise<number[]>;
+declare function typprice(high: number[], low: number[], close: number[], size?: number): number[];

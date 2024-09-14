@@ -6,4 +6,4 @@ export = pvi;
  * @param {number} [size]
  * @returns
  */
-declare function pvi(close: number[], volume: number[], size?: number): Promise<number[]>;
+declare function pvi(close: number[], volume: number[], size?: number): number[];

@@ -6,4 +6,4 @@ export = msw;
  * @param {number} [size]
  * @returns
  */
-declare function msw(source: number[], period: number, size?: number): Promise<number[][]>;
+declare function msw(source: number[], period: number, size?: number): number[][];

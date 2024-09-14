@@ -6,4 +6,4 @@ export = wma;
  * @param {number} [size]
  * @returns
  */
-declare function wma(source: number[], period: number, size?: number): Promise<number[]>;
+declare function wma(source: number[], period: number, size?: number): number[];

@@ -9,4 +9,4 @@ export = adosc;
  * @param {number} [size]
  * @returns
  */
-declare function adosc(high: number[], low: number[], close: number[], volume: number[], short_period: number, long_period: number, size?: number): Promise<number[]>;
+declare function adosc(high: number[], low: number[], close: number[], volume: number[], short_period: number, long_period: number, size?: number): number[];

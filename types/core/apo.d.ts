@@ -7,4 +7,4 @@ export = apo;
  * @param {number} [size]
  * @returns
  */
-declare function apo(source: number[], short_period: number, long_period: number, size?: number): Promise<number[]>;
+declare function apo(source: number[], short_period: number, long_period: number, size?: number): number[];

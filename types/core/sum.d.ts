@@ -6,4 +6,4 @@ export = sum;
  * @param {number} [size]
  * @returns
  */
-declare function sum(source: number[], period: number, size?: number): Promise<number[]>;
+declare function sum(source: number[], period: number, size?: number): number[];

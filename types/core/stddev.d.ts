@@ -6,4 +6,4 @@ export = stddev;
  * @param {number} [size]
  * @returns
  */
-declare function stddev(source: number[], period: number, size?: number): Promise<number[]>;
+declare function stddev(source: number[], period: number, size?: number): number[];

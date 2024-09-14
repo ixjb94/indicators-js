@@ -8,4 +8,4 @@ export = vidya;
  * @param {number} [size]
  * @returns
  */
-declare function vidya(source: number[], short_period: number, long_period: number, alpha: number, size?: number): Promise<number[]>;
+declare function vidya(source: number[], short_period: number, long_period: number, alpha: number, size?: number): number[];

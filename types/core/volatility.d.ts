@@ -6,4 +6,4 @@ export = volatility;
  * @param {number} [size]
  * @returns
  */
-declare function volatility(source: number[], period: number, size?: number): Promise<number[]>;
+declare function volatility(source: number[], period: number, size?: number): number[];

@@ -6,4 +6,4 @@ export = edecay;
  * @param {number} [size]
  * @returns
  */
-declare function edecay(source: number[], period: number, size?: number): Promise<any[]>;
+declare function edecay(source: number[], period: number, size?: number): any[];

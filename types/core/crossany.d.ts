@@ -5,4 +5,4 @@ export = crossany;
  * @param {number} [size]
  * @returns
  */
-declare function crossany(a: number[], b: number[], size?: number): Promise<boolean[]>;
+declare function crossany(a: number[], b: number[], size?: number): boolean[];

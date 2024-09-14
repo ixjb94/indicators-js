@@ -6,4 +6,4 @@ export = max;
  * @param {number} [size]
  * @returns
  */
-declare function max(source: number[], period: number, size?: number): Promise<number[]>;
+declare function max(source: number[], period: number, size?: number): number[];

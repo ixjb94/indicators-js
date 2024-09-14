@@ -6,4 +6,4 @@ export = stochrsi;
  * @param {number} [size]
  * @returns
  */
-declare function stochrsi(source: number[], period: number, size?: number): Promise<number[]>;
+declare function stochrsi(source: number[], period: number, size?: number): number[];

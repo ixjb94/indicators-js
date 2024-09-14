@@ -6,4 +6,4 @@ export = roc;
  * @param {number} [size]
  * @returns
  */
-declare function roc(source: number[], period: number, size?: number): Promise<number[]>;
+declare function roc(source: number[], period: number, size?: number): number[];

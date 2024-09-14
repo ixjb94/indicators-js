@@ -6,4 +6,4 @@ export = dpo;
  * @param {number} [size]
  * @returns
  */
-declare function dpo(source: number[], period: number, size?: number): Promise<number[]>;
+declare function dpo(source: number[], period: number, size?: number): number[];

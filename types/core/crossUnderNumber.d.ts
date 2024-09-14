@@ -5,4 +5,4 @@ export = crossUnderNumber;
  * @param {number} number
  * @returns
  */
-declare function crossUnderNumber(seriesA: number[], number: number): Promise<boolean[]>;
+declare function crossUnderNumber(seriesA: number[], number: number): boolean[];

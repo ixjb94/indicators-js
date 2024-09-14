@@ -9,4 +9,4 @@ export = ce;
  * @param {number} [size]
  * @returns [ce_high, ce_low]
  */
-declare function ce(high: number[], low: number[], close: number[], period: number, coef: number, size?: number): Promise<number[][]>;
+declare function ce(high: number[], low: number[], close: number[], period: number, coef: number, size?: number): number[][];

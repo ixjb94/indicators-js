@@ -7,4 +7,4 @@ export = wad;
  * @param {number} [size]
  * @returns
  */
-declare function wad(high: number[], low: number[], close: number[], size?: number): Promise<number[]>;
+declare function wad(high: number[], low: number[], close: number[], size?: number): number[];

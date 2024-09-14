@@ -7,4 +7,4 @@ export = qstick;
  * @param {number} [size]
  * @returns
  */
-declare function qstick(open: number[], close: number[], period: number, size?: number): Promise<number[]>;
+declare function qstick(open: number[], close: number[], period: number, size?: number): number[];

@@ -6,4 +6,4 @@ export = linreg;
  * @param {number} [size]
  * @returns
  */
-declare function linreg(source: number[], period: number, size?: number): Promise<number[]>;
+declare function linreg(source: number[], period: number, size?: number): number[];

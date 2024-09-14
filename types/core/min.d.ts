@@ -6,4 +6,4 @@ export = min;
  * @param {number} [size]
  * @returns
  */
-declare function min(source: number[], period: number, size?: number): Promise<number[]>;
+declare function min(source: number[], period: number, size?: number): number[];

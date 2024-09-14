@@ -6,4 +6,4 @@ export = obv;
  * @param {number} [size]
  * @returns
  */
-declare function obv(close: number[], volume: number[], size?: number): Promise<number[]>;
+declare function obv(close: number[], volume: number[], size?: number): number[];

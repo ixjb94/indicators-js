@@ -7,4 +7,4 @@ export = emv;
  * @param {number} [size]
  * @returns
  */
-declare function emv(high: number[], low: number[], volume: number[], size?: number): Promise<number[]>;
+declare function emv(high: number[], low: number[], volume: number[], size?: number): number[];

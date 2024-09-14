@@ -6,4 +6,4 @@ export = zlema;
  * @param {number} [size]
  * @returns
  */
-declare function zlema(input: number[], period: number, size?: number): Promise<number[]>;
+declare function zlema(input: number[], period: number, size?: number): number[];

@@ -6,4 +6,4 @@ export = tsf;
  * @param {number} [size]
  * @returns
  */
-declare function tsf(source: number[], period: number, size?: number): Promise<number[]>;
+declare function tsf(source: number[], period: number, size?: number): number[];

@@ -5,4 +5,4 @@ export = normalize2;
  * @param {number} length main source length, example: close.length
  * @returns
  */
-declare function normalize2(source: number[], length: number): Promise<number[]>;
+declare function normalize2(source: number[], length: number): number[];

@@ -6,4 +6,4 @@ export = hma;
  * @param {number} [size]
  * @returns
  */
-declare function hma(input: number[], period: number, size?: number): Promise<number[]>;
+declare function hma(input: number[], period: number, size?: number): number[];

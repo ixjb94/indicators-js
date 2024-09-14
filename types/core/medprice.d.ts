@@ -6,4 +6,4 @@ export = medprice;
  * @param {number} [size]
  * @returns
  */
-declare function medprice(high: number[], low: number[], size?: number): Promise<number[]>;
+declare function medprice(high: number[], low: number[], size?: number): number[];

@@ -7,4 +7,4 @@ export = marketfi;
  * @param {number} [size]
  * @returns
  */
-declare function marketfi(high: number[], low: number[], volume: number[], size?: number): Promise<number[]>;
+declare function marketfi(high: number[], low: number[], volume: number[], size?: number): number[];

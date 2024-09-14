@@ -7,4 +7,4 @@ export = aroonosc;
  * @param {number} [size]
  * @returns
  */
-declare function aroonosc(high: number[], low: number[], period: number, size?: number): Promise<number[]>;
+declare function aroonosc(high: number[], low: number[], period: number, size?: number): number[];

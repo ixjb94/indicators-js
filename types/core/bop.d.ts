@@ -8,4 +8,4 @@ export = bop;
  * @param {number} [size]
  * @returns
  */
-declare function bop(open: number[], high: number[], low: number[], close: number[], size?: number): Promise<number[]>;
+declare function bop(open: number[], high: number[], low: number[], close: number[], size?: number): number[];

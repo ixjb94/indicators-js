@@ -5,4 +5,4 @@ export = crossOverNumber;
  * @param {number} number
  * @returns
  */
-declare function crossOverNumber(seriesA: number[], number: number): Promise<boolean[]>;
+declare function crossOverNumber(seriesA: number[], number: number): boolean[];

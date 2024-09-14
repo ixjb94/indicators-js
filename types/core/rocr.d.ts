@@ -6,4 +6,4 @@ export = rocr;
  * @param {number} [size]
  * @returns
  */
-declare function rocr(source: number[], period: number, size?: number): Promise<number[]>;
+declare function rocr(source: number[], period: number, size?: number): number[];

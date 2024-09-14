@@ -6,4 +6,4 @@ export = varf;
  * @param {number} [size]
  * @returns
  */
-declare function varf(source: number[], period: number, size?: number): Promise<number[]>;
+declare function varf(source: number[], period: number, size?: number): number[];

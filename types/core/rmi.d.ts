@@ -7,4 +7,4 @@ export = rmi;
  * @param {number} [size]
  * @returns
  */
-declare function rmi(source: number[], period: number, lookback_period: number, size?: number): Promise<number[]>;
+declare function rmi(source: number[], period: number, lookback_period: number, size?: number): number[];

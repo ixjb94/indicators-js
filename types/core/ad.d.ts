@@ -8,4 +8,4 @@ export = ad;
  * @param {number} [size]
  * @returns
  */
-declare function ad(high: number[], low: number[], close: number[], volume: number[], size?: number): Promise<number[]>;
+declare function ad(high: number[], low: number[], close: number[], volume: number[], size?: number): number[];

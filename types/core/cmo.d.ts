@@ -6,4 +6,4 @@ export = cmo;
  * @param {number} [size]
  * @returns
  */
-declare function cmo(source: number[], period: number, size?: number): Promise<number[]>;
+declare function cmo(source: number[], period: number, size?: number): number[];

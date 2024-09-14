@@ -7,4 +7,4 @@ export = rmta;
  * @param {number} [size]
  * @returns
  */
-declare function rmta(source: number[], period: number, beta: number, size?: number): Promise<number[]>;
+declare function rmta(source: number[], period: number, beta: number, size?: number): number[];

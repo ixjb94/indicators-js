@@ -8,4 +8,4 @@ export = psar;
  * @param {number} [size]
  * @returns
  */
-declare function psar(high: number[], low: number[], accel_step: number, accel_max: number, size?: number): Promise<number[]>;
+declare function psar(high: number[], low: number[], accel_step: number, accel_max: number, size?: number): number[];

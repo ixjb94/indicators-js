@@ -8,4 +8,4 @@ export = natr;
  * @param {number} [size]
  * @returns
  */
-declare function natr(high: number[], low: number[], close: number[], period: number, size?: number): Promise<number[]>;
+declare function natr(high: number[], low: number[], close: number[], period: number, size?: number): number[];

@@ -6,4 +6,4 @@ export = fosc;
  * @param {number} [size]
  * @returns
  */
-declare function fosc(source: number[], period: number, size?: number): Promise<number[]>;
+declare function fosc(source: number[], period: number, size?: number): number[];

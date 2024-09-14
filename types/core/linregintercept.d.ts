@@ -6,4 +6,4 @@ export = linregintercept;
  * @param {number} [size]
  * @returns
  */
-declare function linregintercept(source: number[], period: number, size?: number): Promise<number[]>;
+declare function linregintercept(source: number[], period: number, size?: number): number[];

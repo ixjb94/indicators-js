@@ -6,4 +6,4 @@ export = tema;
  * @param {number} [size]
  * @returns
  */
-declare function tema(source: number[], period: number, size?: number): Promise<number[]>;
+declare function tema(source: number[], period: number, size?: number): number[];

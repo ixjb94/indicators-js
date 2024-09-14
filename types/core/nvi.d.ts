@@ -6,4 +6,4 @@ export = nvi;
  * @param {number} [size]
  * @returns
  */
-declare function nvi(close: number[], volume: number[], size?: number): Promise<number[]>;
+declare function nvi(close: number[], volume: number[], size?: number): number[];

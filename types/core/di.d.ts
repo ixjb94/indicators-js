@@ -8,4 +8,4 @@ export = di;
  * @param {number} [size]
  * @returns [Plus DI, Minus DI]
  */
-declare function di(high: number[], low: number[], close: number[], period: number, size?: number): Promise<number[][]>;
+declare function di(high: number[], low: number[], close: number[], period: number, size?: number): number[][];

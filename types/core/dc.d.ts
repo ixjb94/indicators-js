@@ -6,4 +6,4 @@ export = dc;
  * @param {number} period
  * @returns [upper, middle, lower]
  */
-declare function dc(highs: number[], lows: number[], period: number): Promise<number[][]>;
+declare function dc(highs: number[], lows: number[], period: number): number[][];

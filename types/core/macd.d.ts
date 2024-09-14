@@ -8,4 +8,4 @@ export = macd;
  * @param {number} [size]
  * @returns [macd, signal, hist]
  */
-declare function macd(source: number[], short_period: number, long_period: number, signal_period: number, size?: number): Promise<number[][]>;
+declare function macd(source: number[], short_period: number, long_period: number, signal_period: number, size?: number): number[][];

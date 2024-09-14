@@ -7,4 +7,4 @@ export = ppo;
  * @param {number} [size]
  * @returns
  */
-declare function ppo(source: number[], short_period: number, long_period: number, size?: number): Promise<number[]>;
+declare function ppo(source: number[], short_period: number, long_period: number, size?: number): number[];

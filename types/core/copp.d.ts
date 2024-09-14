@@ -5,4 +5,4 @@ export = copp;
  * @param {number} period2
  * @returns
  */
-declare function copp(data: number[], period1: number, period2: number): Promise<any[]>;
+declare function copp(data: number[], period1: number, period2: number): any[];

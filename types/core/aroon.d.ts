@@ -7,4 +7,4 @@ export = aroon;
  * @param {number} [size]
  * @returns First output = Aroon Down, Second output = Aroon Up
  */
-declare function aroon(high: number[], low: number[], period: number, size?: number): Promise<number[][]>;
+declare function aroon(high: number[], low: number[], period: number, size?: number): number[][];

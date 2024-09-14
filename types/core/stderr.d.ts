@@ -6,4 +6,4 @@ export = stderr;
  * @param {number} [size]
  * @returns
  */
-declare function stderr(source: number[], period: number, size?: number): Promise<number[]>;
+declare function stderr(source: number[], period: number, size?: number): number[];

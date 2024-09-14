@@ -10,4 +10,4 @@ export = kvo;
  * @param {number} [size]
  * @returns
  */
-declare function kvo(high: number[], low: number[], close: number[], volume: number[], short_period: number, long_period: number, size?: number): Promise<number[]>;
+declare function kvo(high: number[], low: number[], close: number[], volume: number[], short_period: number, long_period: number, size?: number): number[];

@@ -10,4 +10,4 @@ export = ultosc;
  * @param {number} [size]
  * @returns
  */
-declare function ultosc(high: number[], low: number[], close: number[], short_period: number, medium_period: number, long_period: number, size?: number): Promise<number[]>;
+declare function ultosc(high: number[], low: number[], close: number[], short_period: number, medium_period: number, long_period: number, size?: number): number[];

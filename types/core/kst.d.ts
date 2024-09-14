@@ -13,4 +13,4 @@ export = kst;
  * @param {number} [size]
  * @returns
  */
-declare function kst(source: number[], roc1: number, roc2: number, roc3: number, roc4: number, ma1: number, ma2: number, ma3: number, ma4: number, size?: number): Promise<number[][]>;
+declare function kst(source: number[], roc1: number, roc2: number, roc3: number, roc4: number, ma1: number, ma2: number, ma3: number, ma4: number, size?: number): number[][];

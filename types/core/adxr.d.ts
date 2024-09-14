@@ -7,4 +7,4 @@ export = adxr;
  * @param {number} [size]
  * @returns
  */
-declare function adxr(high: number[], low: number[], period: number, size?: number): Promise<number[]>;
+declare function adxr(high: number[], low: number[], period: number, size?: number): number[];

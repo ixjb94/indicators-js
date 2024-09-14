@@ -7,4 +7,4 @@ export = rvi;
  * @param {number} [size]
  * @returns
  */
-declare function rvi(source: number[], sma_period: number, stddev_period: number, size?: number): Promise<number[]>;
+declare function rvi(source: number[], sma_period: number, stddev_period: number, size?: number): number[];

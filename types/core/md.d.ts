@@ -6,4 +6,4 @@ export = md;
  * @param {number} [size]
  * @returns
  */
-declare function md(source: number[], period: number, size?: number): Promise<number[]>;
+declare function md(source: number[], period: number, size?: number): number[];

@@ -5,4 +5,4 @@ export = decay;
  * @param {number} [size]
  * @returns
  */
-declare function decay(source: number[], period: number, size?: number): Promise<any[]>;
+declare function decay(source: number[], period: number, size?: number): any[];

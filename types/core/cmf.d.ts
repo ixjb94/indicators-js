@@ -9,4 +9,4 @@ export = cmf;
  * @param {number} [size]
  * @returns
  */
-declare function cmf(high: number[], low: number[], close: number[], volume: number[], period: number, size?: number): Promise<number[]>;
+declare function cmf(high: number[], low: number[], close: number[], volume: number[], period: number, size?: number): number[];

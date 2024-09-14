@@ -8,4 +8,4 @@ export = willr;
  * @param {number} [size]
  * @returns
  */
-declare function willr(high: number[], low: number[], close: number[], period: number, size?: number): Promise<number[]>;
+declare function willr(high: number[], low: number[], close: number[], period: number, size?: number): number[];

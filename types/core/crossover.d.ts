@@ -5,4 +5,4 @@ export = crossover;
  * @param {number} [size]
  * @returns
  */
-declare function crossover(a: number[], b: number[], size?: number): Promise<boolean[]>;
+declare function crossover(a: number[], b: number[], size?: number): boolean[];

@@ -5,4 +5,4 @@ export = kama;
  * @param {number} [size]
  * @returns
  */
-declare function kama(source: number[], period: number, size?: number): Promise<number[]>;
+declare function kama(source: number[], period: number, size?: number): number[];

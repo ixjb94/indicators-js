@@ -7,4 +7,4 @@ export = tr;
  * @param {number} [size]
  * @returns
  */
-declare function tr(high: number[], low: number[], close: number[], size?: number): Promise<number[]>;
+declare function tr(high: number[], low: number[], close: number[], size?: number): number[];

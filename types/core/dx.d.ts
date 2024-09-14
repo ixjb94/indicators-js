@@ -7,4 +7,4 @@ export = dx;
  * @param {number} [size]
  * @returns
  */
-declare function dx(high: number[], low: number[], period: number, size?: number): Promise<number[]>;
+declare function dx(high: number[], low: number[], period: number, size?: number): number[];

@@ -6,4 +6,4 @@ export = ema;
  * @param {number} [size]
  * @returns
  */
-declare function ema(source: number[], period: number, size?: number): Promise<number[]>;
+declare function ema(source: number[], period: number, size?: number): number[];

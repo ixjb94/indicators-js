@@ -6,4 +6,4 @@ export = lag;
  * @param {number} [size]
  * @returns
  */
-declare function lag(source: number[], period: number, size?: number): Promise<number[]>;
+declare function lag(source: number[], period: number, size?: number): number[];

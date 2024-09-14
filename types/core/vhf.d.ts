@@ -6,4 +6,4 @@ export = vhf;
  * @param {number} [size]
  * @returns
  */
-declare function vhf(source: number[], period: number, size?: number): Promise<number[]>;
+declare function vhf(source: number[], period: number, size?: number): number[];

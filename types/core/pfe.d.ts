@@ -7,4 +7,4 @@ export = pfe;
  * @param {number} [size]
  * @returns
  */
-declare function pfe(source: number[], period: number, ema_period: number, size?: number): Promise<number[]>;
+declare function pfe(source: number[], period: number, ema_period: number, size?: number): number[];
