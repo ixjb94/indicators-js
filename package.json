@@ -1,6 +1,6 @@
 {
   "name": "@ixjb94/indicators-js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Fastest Technical Indicators written in javascript. More than +100 indicators(SMA, EMA, RSI, MACD, ...)",
   "main": "index.js",
   "types": "types/index.d.ts",
@@ -9,7 +9,7 @@
     "build": "rollup -c --bundleConfigAsCjs",
     "public": "npm publish --access=public",
     "tsc": "npx tsc",
-    "publish": "npm publish"
+    "publish": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
