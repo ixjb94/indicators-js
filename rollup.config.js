@@ -7,6 +7,7 @@ export default {
         file: 'dist/index.umd.js',
         format: 'umd',
         name: 'indicators',
+        exports: 'named',
     },
     plugins: [resolve(), commonjs()],
 };
