@@ -8,7 +8,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function mfi(
+function mfi(
     high, low,
     close, volume,
     period, size = high.length

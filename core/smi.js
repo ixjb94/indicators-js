@@ -9,7 +9,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function smi(
+function smi(
     high, low,
     close, q_period,
     r_period, s_period,

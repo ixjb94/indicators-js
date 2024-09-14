@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function mass(
+function mass(
     high, low,
     period, size = high.length
 ) {

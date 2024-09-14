@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns [fisher, signal]
  */
- async function fisher(
+function fisher(
     high, low,
     period, size = high.length
 ) {

@@ -8,7 +8,7 @@
  * @param {number} [size]
  * @returns [ce_high, ce_low]
  */
-async function ce(
+function ce(
     high, low,
     close, period, coef,
     size = high.length

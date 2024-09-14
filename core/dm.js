@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns [Plus DM, Minus DM]
  */
- async function dm(
+function dm(
     high, low,
     period, size = high.length
 ) {

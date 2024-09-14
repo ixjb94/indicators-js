@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function marketfi(
+function marketfi(
     high, low,
     volume, size = high.length
 ) {

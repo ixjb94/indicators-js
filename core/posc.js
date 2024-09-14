@@ -8,7 +8,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function posc(
+  function posc(
     high, low,
     close, period,
     ema_period, size = high.length

@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function stderr(
+function stderr(
     source, period,
     size = source.length
 ) {

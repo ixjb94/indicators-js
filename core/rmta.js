@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function rmta(
+  function rmta(
     source, period,
     beta, size = source.length
 ) {

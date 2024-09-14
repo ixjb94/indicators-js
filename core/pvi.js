@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function pvi(
+  function pvi(
     close, volume,
     size = close.length
 ) {

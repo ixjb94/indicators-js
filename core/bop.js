@@ -7,7 +7,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function bop(
+ function bop(
     open, high,
     low, close,
     size = open.length

@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function qstick(
+  function qstick(
     open,
     close,
     period,

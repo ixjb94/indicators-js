@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function wma(
+ function wma(
     source, period,
     size = source.length
 ) {

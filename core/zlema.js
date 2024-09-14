@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function zlema(input, period, size = input.length) {
+ function zlema(input, period, size = input.length) {
 
     const lag = Math.floor((period - 1) / 2)
 

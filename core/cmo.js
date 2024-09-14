@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function cmo(
+ function cmo(
     source, period,
     size = source.length
 ) {

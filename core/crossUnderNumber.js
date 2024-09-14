@@ -4,7 +4,7 @@
  * @param {number} number 
  * @returns 
  */
-async function crossUnderNumber(seriesA, number) {
+function crossUnderNumber(seriesA, number) {
 
     const output = []
 

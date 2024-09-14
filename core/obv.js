@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function obv(
+ function obv(
     close, volume,
     size = close.length
 ) {

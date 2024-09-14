@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function wcprice(
+ function wcprice(
     high, low,
     close, size = high.length
 ) {

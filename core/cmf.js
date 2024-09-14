@@ -8,7 +8,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function cmf(
+function cmf(
     high, low,
     close, volume,
     period, size = high.length

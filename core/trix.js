@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function trix(
+function trix(
     source, period,
     size = source.length
 ) {

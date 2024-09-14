@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function atr(
+function atr(
     high, low, close,
     period, size = high.length
 ) {

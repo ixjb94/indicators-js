@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function msw(
+function msw(
     source, period,
     size = source.length
 ) {

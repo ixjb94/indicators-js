@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function emv(
+function emv(
     high, low, volume,
     size = high.length
 ) {

@@ -5,7 +5,7 @@
  * @param {*} empty - example NaN | Null | 0 | false | etc.
  * @returns 
  */
- async function normalize(originalLength, source, empty = NaN) {
+function normalize(originalLength, source, empty = NaN) {
     const diff = originalLength - source.length
 
     const emptyList = []

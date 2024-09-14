@@ -7,7 +7,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function willr(
+ function willr(
     high, low,
     close, period,
     size = high.length

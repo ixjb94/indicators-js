@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function linregslope(
+function linregslope(
     source, period,
     size = source.length
 ) {

@@ -4,7 +4,7 @@
  * @param {number} period2 
  * @returns 
  */
-async function copp(data, period1, period2) {
+function copp(data, period1, period2) {
 
     const roc1 = new Array(data.length);
     const roc2 = new Array(data.length);

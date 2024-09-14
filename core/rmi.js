@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function rmi(
+  function rmi(
     source, period,
     lookback_period, size = source.length
 ) {

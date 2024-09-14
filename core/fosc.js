@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function fosc(
+function fosc(
     source, period,
     size = source.length
 ) {

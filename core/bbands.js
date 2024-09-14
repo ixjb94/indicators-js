@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns [Lower, Middle, Upper]
  */
- async function bbands(
+function bbands(
     source, period, stddev,
     size = source.length
 ) {

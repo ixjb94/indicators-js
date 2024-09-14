@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function trima(
+function trima(
     source, period,
     size = source.length
 ) {

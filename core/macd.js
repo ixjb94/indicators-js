@@ -7,7 +7,7 @@
  * @param {number} [size]
  * @returns [macd, signal, hist]
  */
- async function macd(
+function macd(
     source, short_period,
     long_period, signal_period,
     size = source.length

@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function sma(
+function sma(
     source, period,
     size = source.length
 ) {

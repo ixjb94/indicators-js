@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function typprice(
+function typprice(
     high, low,
     close, size = high.length
 ) {

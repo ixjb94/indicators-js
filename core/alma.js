@@ -7,7 +7,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function alma(
+function alma(
     source, period,
     offset, sigma,
     size = source.length

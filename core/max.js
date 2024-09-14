@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function max(
+function max(
     source, period,
     size = source.length
 ) {

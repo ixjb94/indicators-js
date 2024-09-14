@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function pfe(
+  function pfe(
     source, period,
     ema_period, size = source.length
 ) {

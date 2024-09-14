@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function dpo(
+function dpo(
     source, period,
     size = source.length
 ) {

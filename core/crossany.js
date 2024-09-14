@@ -4,7 +4,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function crossany(a, b, size = a.length) {
+function crossany(a, b, size = a.length) {
     const output = []
 
     for (let i = 0; i < size; ++i) {

@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function dx(
+function dx(
     high, low,
     period, size = high.length
 ) {

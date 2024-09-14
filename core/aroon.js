@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns First output = Aroon Down, Second output = Aroon Up
  */
- async function aroon(
+function aroon(
     high, low,
     period, size = high.length
 ) {

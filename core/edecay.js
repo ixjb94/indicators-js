@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function edecay(
+function edecay(
     source, period,
     size = source.length
 ) {

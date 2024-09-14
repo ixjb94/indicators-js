@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function wad(
+ function wad(
     high, low,
     close, size = high.length
 ) {

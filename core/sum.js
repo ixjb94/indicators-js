@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function sum(
+function sum(
     source, period,
     size = source.length
 ) {

@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns [upper_band, lower_band, middle_point]
  */
-async function abands(
+function abands(
     high, low,
     close, period,
     size = high.length

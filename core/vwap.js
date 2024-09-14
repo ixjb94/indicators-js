@@ -8,7 +8,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function vwap(
+ function vwap(
     high, low,
     close, volume,
     period, size = high.length

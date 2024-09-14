@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function tr(
+function tr(
     high, low,
     close, size = high.length
 ) {

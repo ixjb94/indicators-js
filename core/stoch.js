@@ -9,7 +9,7 @@
  * @param {number} [size]
  * @returns [stoch, stoch_ma]
  */
- async function stoch(
+function stoch(
     high, low,
     close,
     kperiod, kslow, dperiod,

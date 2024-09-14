@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function tsf(
+function tsf(
     source, period,
     size = source.length
 ) {

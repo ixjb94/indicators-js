@@ -8,7 +8,7 @@
  * @param {number} [size]
  * @returns [kc_lower, kc_middle, kc_upper]
  */
-async function kc(
+function kc(
     high, low,
     close, period,
     multiple, size = high.length

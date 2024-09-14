@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function nvi(
+function nvi(
     close, volume,
     size = close.length
 ) {

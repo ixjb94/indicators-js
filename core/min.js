@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function min(
+function min(
     source, period,
     size = source.length
 ) {

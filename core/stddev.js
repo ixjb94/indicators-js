@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function stddev(
+function stddev(
     source, period,
     size = source.length
 ) {

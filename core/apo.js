@@ -7,7 +7,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function apo(
+function apo(
     source, short_period, long_period,
     size = source.length
 ) {

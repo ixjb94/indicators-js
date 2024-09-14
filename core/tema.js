@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function tema(
+function tema(
     source, period,
     size = source.length
 ) {

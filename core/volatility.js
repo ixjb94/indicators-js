@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function volatility(
+ function volatility(
     source, period,
     size = source.length
 ) {

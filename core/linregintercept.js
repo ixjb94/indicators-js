@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function linregintercept(
+function linregintercept(
     source, period,
     size = source.length
 ) {

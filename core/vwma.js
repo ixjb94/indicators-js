@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function vwma(
+ function vwma(
     source, volume,
     period, size = source.length
 ) {

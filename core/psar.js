@@ -7,7 +7,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function psar(
+  function psar(
     high, low,
     accel_step, accel_max,
     size = high.length

@@ -5,7 +5,7 @@
  * @param {number} period 
  * @returns [upper, middle, lower]
  */
- async function dc(highs, lows, period) {
+function dc(highs, lows, period) {
 
     const upper = []
     const lower = []

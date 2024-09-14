@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function varf(
+ function varf(
     source, period,
     size = source.length
 ) {

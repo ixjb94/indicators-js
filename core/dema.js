@@ -4,7 +4,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function dema(
+function dema(
     source, period,
     size = source.length
 ) {

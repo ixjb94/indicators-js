@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function adxr(
+function adxr(
     high, low,
     period, size = high.length
 ) {

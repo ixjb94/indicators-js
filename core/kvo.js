@@ -9,7 +9,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function kvo(
+function kvo(
     high, low,
     close, volume,
     short_period, long_period,

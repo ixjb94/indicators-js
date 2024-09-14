@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function ao(
+function ao(
     high, low,
     size = high.length
 ) {

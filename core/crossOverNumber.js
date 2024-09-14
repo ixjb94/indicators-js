@@ -4,7 +4,7 @@
  * @param {number} number 
  * @returns 
  */
- async function crossOverNumber(seriesA, number) {
+function crossOverNumber(seriesA, number) {
 
     const output = []
 

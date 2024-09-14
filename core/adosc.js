@@ -8,7 +8,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function adosc(
+function adosc(
     high, low,
     close, volume,
     short_period, long_period,

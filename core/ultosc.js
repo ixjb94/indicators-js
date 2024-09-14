@@ -9,7 +9,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function ultosc(
+ function ultosc(
     high, low,
     close, short_period,
     medium_period, long_period,

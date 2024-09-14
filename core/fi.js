@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function fi(
+function fi(
     close, volume,
     period, size = close.length
 ) {

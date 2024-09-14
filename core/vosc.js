@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function vosc(
+ function vosc(
     source, short_period,
     long_period, size = source.length
 ) {

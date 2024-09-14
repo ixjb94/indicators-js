@@ -8,7 +8,7 @@
  * @param {number} [size]
  * @returns [pbands_lower, pbands_upper]
  */
- async function pbands(
+  function pbands(
     high, low,
     close, period,
     size = high.length

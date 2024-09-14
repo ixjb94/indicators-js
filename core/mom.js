@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function mom(
+function mom(
     source, period,
     size = source.length
 ) {

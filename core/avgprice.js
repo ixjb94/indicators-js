@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function avgprice(
+function avgprice(
     open, high,
     low, close,
     size = open.length

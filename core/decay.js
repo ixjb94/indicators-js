@@ -4,7 +4,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function decay(
+function decay(
     source, period,
     size = source.length
 ) {

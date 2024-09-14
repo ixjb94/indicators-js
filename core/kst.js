@@ -12,7 +12,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function kst(
+function kst(
     source,
     roc1, roc2, roc3, roc4,
     ma1, ma2, ma3, ma4,

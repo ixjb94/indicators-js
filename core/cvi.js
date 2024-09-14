@@ -47,37 +47,37 @@ class ti_buffer {
  * @param {number} [size]
  * @returns 
  */
- async function cvi(
-    high, low,
-    period, size = high.length
+function cvi(
+	high, low,
+	period, size = high.length
 ) {
 
-    const output = []
+	const output = []
 
-    const per = 2 / (period + 1)
+	const per = 2 / (period + 1)
 
-    const lag = new ti_buffer(period)
+	const lag = new ti_buffer(period)
 
-    let val = high[0] - low[0]
+	let val = high[0] - low[0]
 
-    let i
-    for (i = 1; i < period * 2 - 1; ++i) {
-        val = ((high[i] - low[i]) - val) * per + val
+	let i
+	for (i = 1; i < period * 2 - 1; ++i) {
+		val = ((high[i] - low[i]) - val) * per + val
 
-        lag.qpush(val)
-    }
+		lag.qpush(val)
+	}
 
-    for (i = period * 2 - 1; i < size; ++i) {
-        val = ((high[i] - low[i]) - val) * per + val
+	for (i = period * 2 - 1; i < size; ++i) {
+		val = ((high[i] - low[i]) - val) * per + val
 
-        const old = lag.vals[lag.index]
+		const old = lag.vals[lag.index]
 
-        output.push(100.0 * (val - old) / old)
+		output.push(100.0 * (val - old) / old)
 
-        lag.qpush(val)
-    }
+		lag.qpush(val)
+	}
 
-    return output
+	return output
 }
 
 module.exports = cvi

@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function rsi(
+function rsi(
     source, period,
     size = source.length
 ) {

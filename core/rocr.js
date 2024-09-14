@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function rocr(
+  function rocr(
     source, period,
     size = source.length
 ) {

@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function vhf(
+ function vhf(
     source, period,
     size = source.length
 ) {

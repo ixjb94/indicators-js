@@ -46,7 +46,7 @@ class ti_buffer {
  * @param {number} [size]
  * @returns 
  */
- async function hma(input, period, size = input.length) {
+ function hma(input, period, size = input.length) {
 
     const output = []
 

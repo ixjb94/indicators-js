@@ -4,7 +4,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function crossover(a, b, size = a.length) {
+function crossover(a, b, size = a.length) {
 
     const output = []
 

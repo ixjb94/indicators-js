@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function lag(
+function lag(
     source, period,
     size = source.length
 ) {

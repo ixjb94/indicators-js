@@ -7,7 +7,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function vidya(
+ function vidya(
     source, short_period,
     long_period, alpha,
     size = source.length

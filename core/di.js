@@ -7,7 +7,7 @@
  * @param {number} [size]
  * @returns [Plus DI, Minus DI]
  */
- async function di(
+function di(
     high, low, close,
     period, size = high.length
 ) {

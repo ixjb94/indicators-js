@@ -7,7 +7,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function natr(
+function natr(
     high, low,
     close, period,
     size = high.length

@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function _cvi(
+function _cvi(
     high, low,
     period, size = high.length
 ) {

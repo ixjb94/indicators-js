@@ -48,7 +48,7 @@ class ti_buffer {
  * @param {number} [size]
  * @returns 
  */
-async function cci(
+function cci(
     high, low,
     close, period,
     size = high.length

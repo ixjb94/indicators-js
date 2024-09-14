@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function rvi(
+function rvi(
     source, sma_period,
     stddev_period, size = source.length
 ) {

@@ -7,7 +7,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function ad(
+function ad(
     high, low,
     close, volume,
     size = close.length

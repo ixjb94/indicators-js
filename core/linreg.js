@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function linreg(
+function linreg(
     source, period,
     size = source.length
 ) {

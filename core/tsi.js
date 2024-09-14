@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function tsi(
+function tsi(
     source, y_period,
     z_period, size = source.length
 ) {

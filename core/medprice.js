@@ -5,7 +5,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function medprice(
+function medprice(
     high, low,
     size = high.length
 ) {

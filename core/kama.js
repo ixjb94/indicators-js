@@ -4,7 +4,7 @@
  * @param {number} [size]
  * @returns 
  */
-async function kama(
+function kama(
     source, period,
     size = source.length
 ) {

@@ -6,7 +6,7 @@
  * @param {number} [size]
  * @returns 
  */
- async function aroonosc(
+function aroonosc(
     high, low,
     period, size = high.length
 ) {
