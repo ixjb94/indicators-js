@@ -3,6 +3,7 @@ Fastest Technical Indicators written in JavaScript
 
 - Zero Dependencies    
 - No Internal Function Calls    
+- Lightweight: +100 Indicators only ~30kb    
 
 ### Supports
 Browser, ES6, CommonJS, NodeJS, Bun, Svelte, React, Angular, etc.
