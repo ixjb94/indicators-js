@@ -24,8 +24,8 @@ const source = [1,2,3,4,5]
 const result = ema(source, 3)
 ```
 
-Browser
-```js
+Browser - Option 1
+```html
 <script src="./node_modules/@ixjb94/indicators-js/dist/index.umd.js"></script>
 <script>
     const { ema } = window.indicators
@@ -34,8 +34,31 @@ Browser
 </script>
 ```
 
-Vite Vanilla: same as Svelte, React, etc.
+Browser - Option 2 - use the Indicators you need
+```html
+<script src="./node_modules/@ixjb94/indicators-js/core/ema.js"></script>
+<script src="./node_modules/@ixjb94/indicators-js/core/rsi.js"></script>
+<!-- etc -->
+<script>
+    const myEMA = ema([1,2,3,4,5], 3)
+    const myRSI = rsi([1,2,3,4,5,6], 4)
+    console.log(myEMA)
+    console.log(myRSI)
+</script>
+```
 
+Browser - Option 3 - Using CDN
+```html
+<!-- All 30kb file -->
+<script src="https://unpkg.com/@ixjb94/indicators-js@latest/dist/index.umd.js"></script>
+
+<!-- Singles -->
+<script src="https://unpkg.com/@ixjb94/indicators-js@latest/core/ema.js"></script>
+<script src="https://unpkg.com/@ixjb94/indicators-js@latest/core/rsi.js"></script>
+```
+
+
+Vite Vanilla: same as Svelte, React, etc.
 
 ### Indicators
 ✅ = Available and fastest    
