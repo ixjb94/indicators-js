@@ -12,6 +12,17 @@ Browser, ES6, CommonJS, NodeJS, Bun, Svelte, React, Angular, etc.
 npm install @ixjb94/indicators-js
 ```
 
+### Examples
+NodeJS, Bun, React, Svelte, Angular, etc.
+```js
+import { ema } from "@ixjb94/indicators-js"
+// or
+const { ema } = require("@ixjb94/indicators-js")
+
+const source = [1,2,3,4,5]
+const result = ema(source, 3)
+```
+
 ### Indicators
 ✅ = Available and fastest    
 ❌ = Indicator is not available    
