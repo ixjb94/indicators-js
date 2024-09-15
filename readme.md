@@ -23,6 +23,19 @@ const source = [1,2,3,4,5]
 const result = ema(source, 3)
 ```
 
+Browser
+```js
+<script src="./node_modules/@ixjb94/indicators-js/dist/index.umd.js"></script>
+<script>
+    const { ema } = window.indicators
+    const result = ema([1,2,3,4,5], 3)
+    console.log(result)
+</script>
+```
+
+Vite Vanilla: same as Svelte, React, etc.
+
+
 ### Indicators
 ✅ = Available and fastest    
 ❌ = Indicator is not available    
