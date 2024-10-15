@@ -8,6 +8,9 @@ Fastest Technical Indicators written in JavaScript
 - No Internal Function Calls    
 - Lightweight: +100 Indicators only ~30kb    
 
+### [A TypeScript Version](https://github.com/ixjb94/indicators/)
+There is also an older version written in [TypeScript](https://github.com/ixjb94/indicators/).   
+
 ### Supports
 Browser, ES6, CommonJS, NodeJS, Bun, Svelte, React, Angular, etc.
 
