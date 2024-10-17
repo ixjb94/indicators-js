@@ -1,5 +1,6 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/ixjb94/indicators/badge)](https://www.codefactor.io/repository/github/ixjb94/indicators)
 ![npm version](https://img.shields.io/npm/v/@ixjb94/indicators-js)
+![npm downloads](https://img.shields.io/npm/dt/@ixjb94/indicators-js)
 
 ### About
 Fastest Technical Indicators written in JavaScript    
