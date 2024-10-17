@@ -47,8 +47,11 @@ Browser - Option 2 - use the Indicators you need
 <script src="./node_modules/@ixjb94/indicators-js/core/rsi.js"></script>
 <!-- etc -->
 <script>
-    const myEMA = ema([1,2,3,4,5], 3)
-    const myRSI = rsi([1,2,3,4,5,6], 4)
+    const source = [1,2,3,4,5,6]
+
+    const myEMA = ema(source, 3)
+    const myRSI = rsi(source, 4)
+
     console.log(myEMA)
     console.log(myRSI)
 </script>
