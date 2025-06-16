@@ -20,6 +20,7 @@ const cmo = require("./core/cmo");
 const copp = require("./core/copp");
 const crossany = require("./core/crossany");
 const crossover = require("./core/crossover");
+const crossunder = require("./core/crossunder");
 const crossOverNumber = require("./core/crossOverNumber");
 const crossUnderNumber = require("./core/crossUnderNumber");
 const cvi = require("./core/cvi");
@@ -125,6 +126,7 @@ module.exports = {
     copp,
     crossany,
     crossover,
+    crossunder,
     crossOverNumber,
     crossUnderNumber,
     cvi,
