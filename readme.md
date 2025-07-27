@@ -129,6 +129,7 @@ node-talib, tulipnode, technicalindicators, pandas_ta
 | mass            | Mass Index                            | ✅                  |
 | max             | Maximum In Period                     | ✅                  |
 | md              | Mean Deviation Over Period            | ✅                  |
+| msw             | Mesa Sine Wave                        | ✅                  |
 | medprice        | Median Price                          | ✅                  |
 | mfi             | Money Flow Index                      | ✅                  |
 | min             | Minimum In Period                     | ✅                  |
